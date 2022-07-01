@@ -10,7 +10,7 @@ namespace AspNetCoreWebService.Controllers
     public class HelloController : Controller
     {
         private const string MESSAGE_FORMAT = "Hello {0}!";
-// comment
+
         [HttpGet]
         public JsonResult Get([FromQuery] string name = "World")
         {
