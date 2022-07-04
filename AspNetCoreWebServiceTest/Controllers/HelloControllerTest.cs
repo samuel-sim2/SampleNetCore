@@ -8,7 +8,7 @@ namespace AspNetCoreWebServiceTest.Controllers
         [Fact]
         public void NoInputParamGetResponseTest()
         {
-			// test comment
+			// test comment again
             HelloController controller = new HelloController();
             var response = controller.Get().Value as Response;
             Assert.Equal("Hello World!", response.Output);
